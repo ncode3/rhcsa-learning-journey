@@ -15,4 +15,5 @@ Personal log toward RHCSA on RHEL 9. Goal: capability first, cert second.
 - `notes/` — daily notes, gotchas  
 - `resources/` — useful links  
 
+> "Certification is the start of mastery — not the end."
 > “Certification is the start of mastery — not the end.”
