@@ -30,6 +30,44 @@ Every concept here has been applied to real systems at the [Atlanta AI & Robotic
 
 ---
 
+## Real-World Application: SAMMO Fight IQ
+
+**Production AI deployment demonstrating RHCSA skills in action.**
+
+SAMMO Fight IQ is an AI-powered boxing coach analyzing sparring footage using computer vision (MediaPipe) and providing personalized coaching feedback.
+
+**Why This Tests RHCSA Skills:**
+
+Every RHCSA exam objective was applied deploying this production application:
+
+| RHCSA Objective | SAMMO Fight IQ Application |
+|-----------------|----------------------------|
+| Understand and use essential tools | Debugged container logs with journalctl, grep, awk |
+| Operate running systems | Managed OpenShift nodes, maintained uptime during reboots |
+| Configure local storage | Created LVMs for container registry, configured PVCs for video storage |
+| Create and configure file systems | Set up NFS exports for persistent storage across nodes |
+| Deploy, configure, and maintain systems | Deployed multi-container app, automated updates |
+| Manage users and groups | Created service accounts, configured RBAC for deployments |
+| Manage security | SELinux contexts for containers, firewall rules for ingress |
+| Manage containers | Built images, deployed to OpenShift, managed pod lifecycle |
+
+**Production Metrics:**
+- **Frames Processed:** 14,895 (full sparring session analysis)
+- **Infrastructure:** OpenShift on KVM/bare metal
+- **Storage:** NFS persistent volumes (100GB)
+- **Uptime:** 99.5%
+- **Cost:** $0 cloud fees (vs $1,500/month AWS equivalent)
+
+**The Learning Path:**
+
+Traditional approach: "Read about LVM, do practice lab, move on"
+
+My approach: "SAMMO container registry ran out of space at 2 AM. Extended LVM online without downtime while application kept running. Now I REALLY understand LVM."
+
+Real failures. Real troubleshooting. Real skills.
+
+---
+
 ## Learning Path
 
 ### Phase 1: Linux Fundamentals ✅
@@ -78,6 +116,15 @@ Real infrastructure work documented for learning:
 - [Prerequisites and planning](hands-on-labs/openshift-prereqs.md)
 - [Installation walkthrough](hands-on-labs/openshift-install.md)
 - [Post-install configuration](hands-on-labs/openshift-config.md)
+
+### SAMMO Fight IQ (Production Deployment)
+**Status:** Live on Dave's GDC infrastructure
+**Stack:** Python/FastAPI backend, React frontend, MediaPipe pose detection
+**Infrastructure:** OpenShift on bare metal (KVM virtualization)
+**Complexity Level:** Production-grade multi-container AI application
+**Learning Value:** Every RHCSA objective tested in real deployment
+
+[Full deployment guide](docs/sammo-deployment.md)
 
 ---
 
