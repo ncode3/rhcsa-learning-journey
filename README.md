@@ -16,7 +16,7 @@ Every concept here has been applied to real systems at the [Atlanta AI & Robotic
 
 ## Current Progress
 
-### December 2024: Building Second Availability Zone
+### December 2025: Building Second Availability Zone
 
 **This Week's Focus:**
 - Site-to-site VPN configuration (WireGuard)
@@ -187,9 +187,9 @@ Documenting progress every Friday:
 
 | Week | Focus | Status |
 |------|-------|--------|
-| Dec 2, 2024 | Second AZ setup, WireGuard VPN | In Progress |
-| Nov 25, 2024 | OpenStack planning | Complete |
-| Nov 18, 2024 | Primary site optimization | Complete |
+| Dec 2, 2025 | Second AZ setup, WireGuard VPN | In Progress |
+| Nov 25, 2025 | OpenStack planning | Complete |
+| Nov 18, 2025 | Primary site optimization | Complete |
 
 ---
 
@@ -207,4 +207,4 @@ Learning in public. Building for impact.
 
 ---
 
-*Last Updated: December 2024*
+*Last Updated: December 2025*
