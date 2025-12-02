@@ -34,8 +34,7 @@ Every concept here has been applied to real systems at the [Atlanta AI & Robotic
 
 **Production AI deployment demonstrating RHCSA skills in action.**
 
-SAMMO Fight IQ is an AI-powered boxing coach analyzing sparring footage 
-using computer vision (MediaPipe) and providing personalized coaching feedback.
+SAMMO Fight IQ is an AI-powered boxing coach analyzing sparring footage using computer vision (MediaPipe) and providing personalized coaching feedback.
 
 **Why This Tests RHCSA Skills:**
 
@@ -63,9 +62,7 @@ Every RHCSA exam objective was applied deploying this production application:
 
 Traditional approach: "Read about LVM, do practice lab, move on"
 
-My approach: "SAMMO container registry ran out of space at 2 AM. Extended 
-LVM online without downtime while application kept running. Now I REALLY 
-understand LVM."
+My approach: "SAMMO container registry ran out of space at 2 AM. Extended LVM online without downtime while application kept running. Now I REALLY understand LVM."
 
 Real failures. Real troubleshooting. Real skills.
 
